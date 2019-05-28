@@ -1,14 +1,14 @@
->>> import os; print(os.popen('python3 sqlrun __q01.sql').read())
+>>> import os; print(os.popen('python3 sqlrun q01.sql').read())
    SUM(c12)
 0  15137.63
 <BLANKLINE>
 
->>> import os; print(os.popen('python3 sqlrun __q02.sql').read())
+>>> import os; print(os.popen('python3 sqlrun q02.sql').read())
    COUNT(*)
 0        30
 <BLANKLINE>
 
->>> import os; print(os.popen('python3 sqlrun __q03.sql').read())
+>>> import os; print(os.popen('python3 sqlrun q03.sql').read())
   K0  K1     c12  c13         c14   c15   c16
 0  A  20  938.16  300  2016-09-12  0.19  BECB
 1  C  15  370.58  900  2016-10-01  0.11  GCDD
@@ -17,14 +17,14 @@
 4  E  14  832.44  800  2016-11-22  0.39  EGFD
 <BLANKLINE>
 
->>> import os; print(os.popen('python3 sqlrun __q04.sql').read())
+>>> import os; print(os.popen('python3 sqlrun q04.sql').read())
   K0   c16
 0  E  EGFD
 1  B  BDEE
 2  C  CCCE
 <BLANKLINE>
 
->>> import os; print(os.popen('python3 sqlrun __q05.sql').read())
+>>> import os; print(os.popen('python3 sqlrun q05.sql').read())
   K0   c01  c02    c03  c04
 0  B  7000  100  OLPKN  0.2
 1  C  1000  600  LMMML  0.2
@@ -32,7 +32,7 @@
 3  G  5000  100  NLPLO  0.2
 <BLANKLINE>
 
->>> import os; print(os.popen('python3 sqlrun __q06.sql').read())
+>>> import os; print(os.popen('python3 sqlrun q06.sql').read())
   K0  K1     c12  c13         c14   c15   c16
 0  A  20  938.16  300  2016-09-12  0.19  BECB
 1  A  30  135.80  900  2017-01-26  0.23  EGAB
@@ -43,7 +43,7 @@
 <BLANKLINE>
 
 
->>> import os; print(os.popen('python3 sqlrun __q07.sql').read())
+>>> import os; print(os.popen('python3 sqlrun q07.sql').read())
    K0  K1     c12  c13         c14   c15   c16
 0   E  14  832.44  800  2016-11-22  0.39  EGFD
 1   E   8  302.86  700  2016-12-22  0.14  DFCC
@@ -61,7 +61,7 @@
 <BLANKLINE>
 
 
->>> import os; print(os.popen('python3 sqlrun __q08.sql').read())
+>>> import os; print(os.popen('python3 sqlrun q08.sql').read())
    YEAR    avg(c21)
 0  2016  564.476429
 1  2017  515.156364
@@ -69,12 +69,12 @@
 3  2019  550.998571
 <BLANKLINE>
 
->>> import os; print(os.popen('python3 sqlrun __q09.sql').read())
+>>> import os; print(os.popen('python3 sqlrun q09.sql').read())
    K1     c21  c22         c23   c24    c25
 0  29  101.11  100  2017-11-17  0.42  MV-CB
 <BLANKLINE>
 
->>> import os; print(os.popen('python3 sqlrun __q10.sql').read())
+>>> import os; print(os.popen('python3 sqlrun q10.sql').read())
    K0   c01  c02    c03  c04
 0  ﻿A  5000  900  NMNJL  0.4
 1   C  1000  600  LMMML  0.2
@@ -83,17 +83,17 @@
 4   I  3000  300  PPPPL  0.3
 <BLANKLINE>
 
->>> import os; print(os.popen('python3 sqlrun __q11.sql').read())
+>>> import os; print(os.popen('python3 sqlrun q11.sql').read())
    YEAR  CANT
 0  2018     6
 <BLANKLINE>
 
->>> import os; print(os.popen('python3 sqlrun __q12.sql').read())
+>>> import os; print(os.popen('python3 sqlrun q12.sql').read())
    YEAR  CANT
 0  2018     6
 <BLANKLINE>
 
->>> import os; print(os.popen('python3 sqlrun __q13.sql').read())
+>>> import os; print(os.popen('python3 sqlrun q13.sql').read())
   K0  MAX(c12)  min(C12)
 0  A    938.16    135.80
 1  B    999.72    283.40
@@ -102,7 +102,7 @@
 4  E    832.44    118.77
 <BLANKLINE>
 
->>> import os; print(os.popen('python3 sqlrun __q14.sql').read())
+>>> import os; print(os.popen('python3 sqlrun q14.sql').read())
   K0    avg(c12)
 0  A  476.155000
 1  B  536.523333
@@ -111,7 +111,7 @@
 4  E  474.825000
 <BLANKLINE>
 
->>> import os; print(os.popen('python3 sqlrun __q15.sql').read())
+>>> import os; print(os.popen('python3 sqlrun q15.sql').read())
   K0    avg(c21)
 0  A  593.495000
 1  B  575.470000
